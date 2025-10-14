@@ -227,5 +227,6 @@ class Calculator:
 
 if __name__ == "__main__":
     root = tk.Tk()
+    root.iconbitmap(r"_icons\cal_icon.ico")
     app = Calculator(root)
     root.mainloop()
